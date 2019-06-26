@@ -2,3 +2,7 @@
 <button [class] = "clase" (click) = 'clickVerde()' [disabled]="disBoton1">{{txtBtn}}</button>
 <button [class] = "clase2" (click) = 'clickAzul()' [disabled]="disBoton2">{{txtBtn2}}</button>
 <button [class] = "clase3" (click) = 'clickRojo()' [disabled]="disBoton3" [style.backgroundColor] = "bgButton">{{txtBtn3}}</button>
+
+<ul *ngFor='let item of items'>
+  <li>{{item}}</li>
+</ul>

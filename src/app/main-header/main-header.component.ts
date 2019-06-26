@@ -20,6 +20,8 @@ export class MainHeaderComponent implements OnInit {
   txtBtn3: string = "Botón rojo";
   bgButton: string = "red";
 
+  items:Array<string> = ['pepe','juan'];
+
 clickAzul() {
   alert('Has pulsado el botón');
 }
@@ -39,6 +41,8 @@ clickRojo() {
 constructor() {
   moment.locale('es');
   this.fecha = moment().format("LLL");
+
+
  }
 
 
