@@ -6,6 +6,7 @@ import * as moment from 'moment';
   templateUrl: './main-header.component.html',
   styleUrls: ['./main-header.component.scss']
 })
+
 export class MainHeaderComponent implements OnInit {
 
   fecha:string;
@@ -19,8 +20,6 @@ export class MainHeaderComponent implements OnInit {
   txtBtn2: string = "Botón azul";
   txtBtn3: string = "Botón rojo";
   bgButton: string = "red";
-
-  items:Array<string> = ['pepe','juan'];
 
 clickAzul() {
   alert('Has pulsado el botón');
