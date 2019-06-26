@@ -18,6 +18,7 @@ export class MainHeaderComponent implements OnInit {
   txtBtn: string = "Botón verde";
   txtBtn2: string = "Botón azul";
   txtBtn3: string = "Botón rojo";
+  bgButton: string = "red";
 
 clickAzul() {
   alert('Has pulsado el botón');
